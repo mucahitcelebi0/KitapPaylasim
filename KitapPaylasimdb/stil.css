@@ -1,0 +1,178 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: url('https://c.wallhere.com/photos/65/e7/books_map-11450.jpg!d') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 5px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover {
+    background: #fff;
+    color: #333;
+}
+
+#showcase {
+    min-height: 400px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+#showcase h1 {
+    font-size: 55px;
+    margin-top: 0;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#arama, #yorumlar, #ozlu-sozler, form {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7); /* Daha şeffaf arka plan */
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#arama h2, #yorumlar h2, #ozlu-sozler h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#arama-formu, #arama-sonuclari {
+    text-align: center;
+}
+
+#arama-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+#arama button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #28a745;
+    background-color: #28a745;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#arama button:hover {
+    background-color: #218838;
+}
+
+.yorum-item {
+    background: rgba(255, 255, 255, 0.7); /* Daha şeffaf yorum kutusu */
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.yorum-item h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.yorum-item img {
+    max-width: 200px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 10px;
+}
+
+footer {
+    background: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+form input[type="text"], form input[type="email"], form input[type="password"], form textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+}
+
+form button {
+    padding: 15px 30px;
+    font-size: 18px;
+}
